@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Prompt', sans-serif;
+
+}
+body {
+    background-image: url(../Image/noche-colorida-en-las-montanas-arte-digital_7680x4320_xtrafondos.com.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+p{
+    color: white;
+}
+
+:root{
+    --white:#fafafb;
+    --purple:#9a67ea;
+    --blue--light:#04d4c3;
+    --blue--dark: #2a73c2;
+    --green:#2c7b90;
+}
+
+
+.list-group-item{
+    background: var(--purple);
+    color: white;
+}
+.custom-list-item {
+    color: black;
+}
+
+
+.card-header {
+    font-size: 35px;
+    text-align: center;
+    background: var(--purple);
+    color: white;
+}
+
+.custom-list-item {
+    display: flex;
+    align-items: center;
+}
+
+.custom-list-item .float-start {
+    margin-right: 10px;
+    /* Ajusta el valor según el espacio deseado entre elementos */
+}
+
+main {
+    padding: 20px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-list-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.subrayado {
+    text-decoration: line-through;
+}
+
+.borroso {
+    color: #6c757d;
+}
+
+.float-start {
+    margin-right: 10px;
+}
+
+.badge.bg-danger {
+    background-color: #dc3545;
+}
+
+.list-group {
+    margin-top: 20px;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.form-label{
+    font-size: 20px;
+    color: black;
+}
+
+.btn-primary{
+    color: white;
+    background: var(--purple);
+    border: #fafafb;
+}
+
+ /* Estilos responsive */
+ @media (max-width: 768px) {
+    header {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .float-start {
+        margin-right: 0;
+    }
+
+    .float-start,
+    .badge.bg-danger {
+        display: block;
+        margin-bottom: 5px;
+    }
+}
